@@ -8,7 +8,7 @@ UNSTABLE_THRESHOLD = 5  # Unstable connection threshold in seconds
 def check_internet_connection():
     try:
         # Check connectivity by making a request to a known IP address
-        response = requests.get("http://ipinfo.io/ip", timeout=10)
+        response = requests.get("http://google.com", timeout=10)
         if response.status_code == 200:
             return True
         else:
