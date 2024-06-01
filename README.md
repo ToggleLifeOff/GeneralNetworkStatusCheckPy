@@ -3,6 +3,8 @@ This code will open a window in which you can see information about the network.
 
 Turning the code into an .exe file
 
-To turn the code into .exe open powershell and type in this line 
+To turn the code into .exe open powershell and type in this line
+
 pyinstaller --onefile networkcheck.py
+
 it will create a folder on the desktop with the .exe file inside.
